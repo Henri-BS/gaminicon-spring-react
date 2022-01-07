@@ -6,9 +6,11 @@ import DropDonw from 'components/Dropdonw';
 
 function Navbar() {
     const [click, setClick] = useState(false);
-
-    const handleClick = () => setClick(!click);
+    const [dropdown, setDropdonw] = useState(false);
+    const handleClick = () => setClick(!click);   
     const closeMobileMenu = () => setClick(false);
+
+
     return (
         <>
             <nav className='navbar'>
@@ -25,7 +27,31 @@ function Navbar() {
                             Home
                         </Link>
                     </li>
+
+                    <li className={'nav-item'}>
+                        <Link to='/services'
+                            className='nav-links'
+                            onClick={closeMobileMenu}>
+                            Services <i className='fas fa-creat-down' />
+                        </Link>
+                        {dropdown && <DropDonw/>}
+                    </li>
+                    <li className={'nav-item'}>
+                        <Link to='/contact-us' 
+                        className='nav-links ' 
+                        onClick={closeMobileMenu}>
+                            Contact Us
+                        </Link>
+                    </li>
+                    <li className={'nav-item'}>
+                        <Link to='/sing-up' 
+                        className='nav-links ' 
+                        onClick={closeMobileMenu}>
+                            Sing Up
+                        </Link>
+                    </li>
                 </ul>
+                <Button/>
             </nav>
         </>
     );

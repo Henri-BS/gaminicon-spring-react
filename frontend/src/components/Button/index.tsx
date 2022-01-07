@@ -1,10 +1,12 @@
 import React from 'react';
+import './index.css';
+import {Link} from 'react-router-dom';
 
 function Button() {
   return (
-    <>
-    <h1>kapakapa</h1>
-    </>
+   <Link to='sing-up'>
+<button className= 'btn '>Sing Up</button>    
+</Link>
   );
 }
 

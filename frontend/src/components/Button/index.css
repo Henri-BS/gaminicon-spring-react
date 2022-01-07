@@ -1,0 +1,8 @@
+:root{
+    --color-primary: #004044;
+    --color-sec: #00020D
+}
+
+.btn{
+    padding: 8px 20px;
+}
