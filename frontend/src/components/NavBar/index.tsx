@@ -7,7 +7,8 @@ import DropDonw from 'components/Dropdonw';
 function Navbar() {
     const [click, setClick] = useState(false);
     const [dropdown, setDropdonw] = useState(false);
-    const handleClick = () => setClick(!click);   
+
+    const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
 
@@ -18,40 +19,42 @@ function Navbar() {
                     className='navbar-logo nav-css'>
                     Gaminicon
                 </Link>
-                <div className='menu-icons' onClick={handleClick}>
+                <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                 </div>
-                <ul className={click ? 'nav-menu active' : 'nav menu'}>
+                <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className={'nav-item'}>
-                        <Link to='/' className='nav-links ' onClick={closeMobileMenu}>
+                        <Link to='/Home' 
+                        className='nav-links ' 
+                        onClick={closeMobileMenu}>
                             Home
                         </Link>
                     </li>
 
-                    <li className={'nav-item'}>
-                        <Link to='/services'
+                    <li  className={'nav-item'}>
+                        <Link to='/explorar'
                             className='nav-links'
                             onClick={closeMobileMenu}>
-                            Services <i className='fas fa-creat-down' />
+                            Explorar <i className='fas fa-creat-down' />
                         </Link>
-                        {dropdown && <DropDonw/>}
+                        {dropdown && <DropDonw />}
                     </li>
                     <li className={'nav-item'}>
-                        <Link to='/contact-us' 
-                        className='nav-links ' 
-                        onClick={closeMobileMenu}>
-                            Contact Us
+                        <Link to='/suporte'
+                            className='nav-links '
+                            onClick={closeMobileMenu}>
+                            Suporte
                         </Link>
                     </li>
                     <li className={'nav-item'}>
-                        <Link to='/sing-up' 
-                        className='nav-links ' 
-                        onClick={closeMobileMenu}>
-                            Sing Up
+                        <Link to='/Forum'
+                            className='nav-links '
+                            onClick={closeMobileMenu}>
+                            Forum
                         </Link>
                     </li>
                 </ul>
-                <Button/>
+                <Button />
             </nav>
         </>
     );

@@ -1,0 +1,29 @@
+.dropdonw-menu {
+    width: 200px;
+    position: absolute;
+    top: 80px;
+    list-style: none;
+    text-align: start;
+}
+
+.dropdonw-menu li {
+    background: #068167;
+    cursor: pointer;
+}
+
+.dropdonw-menu li:hover {
+    background: #2E856D;
+}
+
+.dropdonw-menu.clicked {
+    display: none;
+}
+
+.dropdonw-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #fff;
+    padding: 16px;
+}
