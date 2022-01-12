@@ -1,5 +1,5 @@
 :root {
-    --color-primary: #177c8a;
+    --color-primary: #439eaa;
     --color-sec: #00020D
 }
 
@@ -20,5 +20,5 @@
     background-color: transparent;
     color: #fff;
     border-radius: 5px;
-    border: 2px solid var(--color-primary);
+    border: 2.5px solid var(--color-primary);
 }

@@ -40,7 +40,7 @@
 }
 
 .nav-links {
-    color: white;
+    color: #fff;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -64,7 +64,7 @@
 }
 
 @media screen and (max-width: 960px) {
-    .NabarItems {
+    .NavbarItems {
         position: relative;
     }
     .nav-menu {
@@ -77,7 +77,6 @@
         left: -100%;
         opacity: 1;
         transition: all 0.5s ease;
-        ;
     }
     .nav-menu.active {
         background: #033138;
@@ -96,7 +95,7 @@
         background-color: #006066;
         border-radius: 0;
     }
-    .nav-logo {
+    .navbar-logo {
         position: absolute;
         top: 0;
         left: 0;
@@ -110,9 +109,9 @@
         transform: translate(-100%, 60%);
         font: 1.8rem;
         cursor: pointer;
-        color: rgb(9, 218, 255);
+        color: #C9E4F0
     }
-    .fa-time {
+    .fa-times {
         color: #fff;
         font-size: 2rem;
     }

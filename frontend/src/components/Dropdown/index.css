@@ -1,18 +1,22 @@
 .dropdonw-menu {
-    width: 200px;
+    background: #1bbdb7;
+    width: 300px;
     position: absolute;
     top: 80px;
     list-style: none;
     text-align: start;
+    border-radius: 5px;
 }
 
 .dropdonw-menu li {
-    background: #068167;
+    background: #1bbdb7;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .dropdonw-menu li:hover {
-    background: #2E856D;
+    background: #1bbdb7;
+    border-radius: 5px;
 }
 
 .dropdonw-menu.clicked {
@@ -26,4 +30,10 @@
     text-decoration: none;
     color: #fff;
     padding: 16px;
+}
+
+@media screen and (max-width: 960px) {
+    .fa-creat-down {
+        display: none;
+    }
 }
