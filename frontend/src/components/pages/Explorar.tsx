@@ -1,10 +1,12 @@
+import Navbar from 'components/NavBar';
 import React from 'react';
 import '../../App.css';
 
 export default function Explorar() {
   return (
     <>
-      <h1 className='home'>Explorar</h1>
+    <Navbar />
+      <h1 className='explorar'>Explorar</h1>
     </>
   );
 }

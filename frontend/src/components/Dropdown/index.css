@@ -1,39 +1,37 @@
 .dropdonw-menu {
-    background: #1bbdb7;
-    width: 300px;
+    background: #006066;
+    width: 250px;
     position: absolute;
     top: 80px;
     list-style: none;
     text-align: start;
-    border-radius: 5px;
 }
 
-.dropdonw-menu li {
-    background: #1bbdb7;
+.dropdown-menu li {
+    background: #006066;
     cursor: pointer;
-    border-radius: 5px;
 }
 
 .dropdonw-menu li:hover {
-    background: #1bbdb7;
-    border-radius: 5px;
+    background: #439eaa;
+    border-radius: 3px;
 }
 
-.dropdonw-menu.clicked {
+.dropdown-menu.clicked {
     display: none;
 }
 
-.dropdonw-link {
+.dropdown-link {
     display: block;
-    width: 100%;
     height: 100%;
+    width: 100%;
     text-decoration: none;
     color: #fff;
     padding: 16px;
 }
 
 @media screen and (max-width: 960px) {
-    .fa-creat-down {
+    .fa-caret-down {
         display: none;
     }
 }

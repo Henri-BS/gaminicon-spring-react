@@ -15,8 +15,8 @@ export const MenuItens = [
         cName: 'dropdown-link'
     },
     {
-        title: 'Lista de Temas',
-        path: '/lista-de-temas',
+        title: 'Lista de Desenvolvedoras',
+        path: '/lista-de-Desenvolvedoras',
         cName: 'dropdown-link'
     },
     {

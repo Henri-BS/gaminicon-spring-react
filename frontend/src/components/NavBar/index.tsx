@@ -35,7 +35,7 @@ function Navbar() {
                 <Link to='/'
                     className='navbar-logo nav-css' onClick={closeMobileMenu}>
                     Gaminicon
-                    <i className='fab fa-firstdraft' />
+                    <i/> 
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
