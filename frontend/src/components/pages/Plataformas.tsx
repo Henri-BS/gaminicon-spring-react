@@ -1,10 +1,10 @@
 import React from 'react';
 import '../../App.css';
 
-export default function Localidades() {
+export default function Plataformas() {
   return (
     <>
-      <h1 className='home'>Localidades</h1>
+      <h1 className='home'>Plataformas</h1>
     </>
   );
 }

@@ -10,8 +10,8 @@ export const MenuItens = [
         cName: 'dropdown-link'
     },
     {
-        title: 'Lista de Localidades',
-        path: '/lista-de-localidades',
+        title: 'Lista de Plataformas',
+        path: '/lista-de-plataformas',
         cName: 'dropdown-link'
     },
     {
