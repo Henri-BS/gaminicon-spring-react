@@ -1,4 +1,4 @@
-export const MenuItens = [
+export const MenuItems = [
     {
         title: 'Lista de Jogos',
         path: '/lista-de-jogos',

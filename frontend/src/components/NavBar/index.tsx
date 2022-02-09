@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Button from 'components/Button';
 import { Link } from 'react-router-dom'
-import './index.css';
+import './styles.css';
 import DropDonw from 'components/Dropdown';
 
 function Navbar() {

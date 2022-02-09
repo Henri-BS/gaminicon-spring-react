@@ -1,9 +1,9 @@
 :root {
-    --color-primary: #439eaa;
-    --color-sec: #00020D
+    --primary: #439eaa;
+    --sec: #00020D
 }
 
-.btn {
+.gaminicon-btn {
     padding: 8px 20px;
     border-radius: 5px;
     outline: none;
@@ -11,14 +11,14 @@
     font-size: 18px;
     color: #fff;
     cursor: pointer;
-    background-color: var(--color-primary);
+    background-color: var(--primary);
 }
 
-.btn:hover {
+.gaminicon-btn:hover {
     padding: 6px 18px;
     transition: all 0.3s ease-out;
     background-color: transparent;
     color: #fff;
     border-radius: 5px;
-    border: 2.5px solid var(--color-primary);
+    border: 2.5px solid var(--primary);
 }

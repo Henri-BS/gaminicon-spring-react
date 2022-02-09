@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { MenuItens } from 'components/MenuItem';
+import { MenuItems } from 'components/MenuItem';
 import { Link } from 'react-router-dom'
-import './index.css';
+import './styles.css';
 
 
 
@@ -13,7 +13,7 @@ function DropDonw() {
     <>
       <ul onClick={handleClick}
         className={click ? 'dropdonw-menu clicked' : 'dropdonw-menu'}>
-        {MenuItens.map((item, index) => {
+        {MenuItems.map((item, index) => {
           return (
             <li key={index}>
               <Link className={item.cName}
