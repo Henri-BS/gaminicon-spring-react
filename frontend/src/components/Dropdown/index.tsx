@@ -5,7 +5,7 @@ import './styles.css';
 
 
 
-function DropDonw() {
+function Dropdown() {
   const [click, setClick] = useState(false)
   const handleClick = () => setClick(!click)
 
@@ -30,4 +30,4 @@ function DropDonw() {
   );
 }
 
-export default DropDonw;
+export default Dropdown;

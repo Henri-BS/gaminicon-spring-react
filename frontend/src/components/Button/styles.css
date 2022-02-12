@@ -1,24 +1,24 @@
 :root {
-    --primary: #439eaa;
-    --sec: #00020D
+    --primary: #047c85;
 }
 
-.gaminicon-btn {
+.gmnc-btn {
     padding: 8px 20px;
-    border-radius: 5px;
+    border-radius: 4px;
     outline: none;
     border: none;
     font-size: 18px;
-    color: #fff;
+    color: #222;
     cursor: pointer;
     background-color: var(--primary);
 }
 
-.gaminicon-btn:hover {
+.gmnc-btn:hover {
     padding: 6px 18px;
     transition: all 0.3s ease-out;
     background-color: transparent;
     color: #fff;
-    border-radius: 5px;
-    border: 2.5px solid var(--primary);
+    border-radius: 4px;
+    border: 2px solid var(--primary);
+    transition: all 0.3s ease-out;
 }

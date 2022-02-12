@@ -1,13 +1,10 @@
-import React from 'react';
-import './styles.css';
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
+import './styles.css'
 
-function Button() {
-  return (
-   <Link to='login'>
-<button className= 'gaminicon-btn '>Login</button>    
-</Link>
-  );
+export function Button(){
+    return (
+        <Link to='sing-up'>
+<button className='gmnc-btn'>Sing Up</button>
+        </Link>
+    );
 }
-
-export default Button;

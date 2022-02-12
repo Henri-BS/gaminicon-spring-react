@@ -1,6 +1,6 @@
 :root {
     --primary: #439eaa;
-    --sec: #00020D
+    --sec: rgb(25, 24, 34);
 }
 
 .gaminicon-form-container {
@@ -58,12 +58,14 @@
     background-color: var(--primary);
     font-size: 14px;
     font-weight: 700;
+    color: #fff;
     height: 40px;
     width: 180px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 5px;
+    border-radius: 5px;
 }
 
 .gaminicon-btn:hover {
