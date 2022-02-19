@@ -1,23 +1,22 @@
-import Explorar from "components/pages/Explorar";
+import Explore from "components/pages/Explore";
 import Home from "components/pages/Home/Home";
 import Jogos from "components/pages/Jogos";
 import Suporte from "components/pages/Suporte";
 import Form from "components/Form/index ";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import NavBar from "components/NavBar";
+import Navbar from "components/NavBar";
 
 const Routes = () => {
     return (
         <>
-      
             <BrowserRouter> 
-            <NavBar /> 
+            <Navbar />
                 <Switch>
                     <Route path="/" exact>
                         <Home />
                     </Route>
                     <Route path="/explorar">
-                        <Explorar />
+                        <Explore />
                     </Route>
                     <Route path="/suporte">
                         <Suporte />

@@ -6,22 +6,22 @@ export const MenuItems = [
     },
     {
         title: 'Lista de Personagens',
-        path: '/lista-de-personagens',
+        path: '/',
         cName: 'dropdown-link'
     },
     {
         title: 'Lista de Plataformas',
-        path: '/lista-de-plataformas',
+        path: '/',
         cName: 'dropdown-link'
     },
     {
         title: 'Lista de Desenvolvedoras',
-        path: '/lista-de-Desenvolvedoras',
+        path: '/',
         cName: 'dropdown-link'
     },
     {
         title: 'Ver mais',
-        path: '/ver-mais',
+        path: '/',
         cName: 'dropdown-link'
     }
 ]

@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../App.css';
+import './styles.css';
 
-export default function Explorar() {
+export default function Explore() {
   return (
     <>
       <h1 className='explorar'>Explorar</h1>

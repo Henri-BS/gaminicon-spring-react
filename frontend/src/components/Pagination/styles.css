@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 
 .gmnc-pagination-box {
@@ -51,7 +52,7 @@
 .gmnc-pagination-container p {
     margin: 0;
     font-size: 12px;
-    color: var(--tertiary);
+    color: var(--trtry);
 }
 
 .gmnc-flip-horizontal {
