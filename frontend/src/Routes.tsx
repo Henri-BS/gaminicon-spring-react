@@ -1,7 +1,7 @@
 import Explore from "components/pages/Explore";
 import Home from "components/pages/Home/Home";
-import Jogos from "components/pages/Jogos";
-import Suporte from "components/pages/Suporte";
+import Games from "components/pages/Games";
+import Suporte from "components/pages/Support/Suporte";
 import Form from "components/Form/index ";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Navbar from "components/NavBar";
@@ -12,7 +12,7 @@ const Routes = () => {
             <BrowserRouter> 
             <Navbar />
                 <Switch>
-                    <Route path="/" exact>
+                    <Route path="/gmnc" exact>
                         <Home />
                     </Route>
                     <Route path="/explorar">
@@ -22,9 +22,9 @@ const Routes = () => {
                         <Suporte />
                     </Route>
                     <Route path="/lista-de-jogos">
-                        <Jogos />
+                        <Games />
                     </Route>
-                    <Route path="/form">
+                    <Route path="/gmnc/form">
                         <Route path=":gameId" />
                         {<Form />}
                     </Route>

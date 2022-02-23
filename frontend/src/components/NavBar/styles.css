@@ -1,12 +1,12 @@
 :root {
     --primary: #006066;
-    --scdr: #033138;
-    --ttry: rgba(1, 0, 20, 1);
-    --qtnr: #C9E4F0
+    --sec: #033138;
+    --tert: rgba(1, 0, 20, 1);
+    --quat: #C9E4F0
 }
 
 .navbar {
-    background: var(--ttry);
+    background: var(--tert);
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -88,7 +88,7 @@
         transition: all 0.5s ease;
     }
     .nav-menu.active {
-        background: var(--scdr);
+        background: var(--sec);
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -108,15 +108,16 @@
         position: absolute;
         top: 0;
         left: 0;
-        transform: translate(25%, 50%);
-        margin-bottom: 30px;
+        transform: translate(20%, 20%);
+        justify-self: start;
+        margin-left: 20px;
     }
     .menu-icon {
         display: block;
         position: absolute;
         top: 0;
         right: 0;
-        transform: translate(-100%, 60%);
+        transform: translate(-100%, 50%);
         font-size: 1.8rem;
         cursor: pointer;
     }

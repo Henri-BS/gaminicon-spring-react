@@ -5,7 +5,7 @@ import './styles.css'
 
 export default function Home() {
   return (
-    <>
+    <>  
       <Pagination />
       <div className="container">
         <div className="row">
@@ -25,7 +25,7 @@ export default function Home() {
             <GameCard />
           </div>
         </div>
-      </div>
+        </div>
     </>
   );
 }

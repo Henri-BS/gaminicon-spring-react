@@ -1,7 +1,6 @@
 import React from 'react';
-import '../../App.css';
 
-export default function Jogos() {
+export default function Games() {
   return (
     <>
       <h1 className='home'>Jogos</h1>

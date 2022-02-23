@@ -1,10 +1,12 @@
 .dropdonw-menu {
     background: #006066;
-    width: 250px;
+    width: 340px;
     position: absolute;
     top: 80px;
     list-style: none;
     text-align: start;
+    margin-top: 5px;
+    border-radius: 3px;
 }
 
 .dropdown-menu li {
@@ -14,6 +16,8 @@
 
 .dropdonw-menu li:hover {
     background: #439eaa;
+    width: 280px;
+    height: 65px;
     border-radius: 3px;
 }
 
@@ -28,6 +32,10 @@
     text-decoration: none;
     color: #fff;
     padding: 16px;
+}
+
+.dropdown-link:hover {
+    color: #fff;
 }
 
 @media screen and (max-width: 960px) {
