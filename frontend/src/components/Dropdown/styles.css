@@ -1,24 +1,33 @@
+:root {
+    --primary: #006066;
+    --sec: #033138;
+    --tert: rgba(1, 0, 20, 1);
+    --quat: #C9E4F0
+}
+
 .dropdonw-menu {
-    background: #006066;
+    background: var(--tert);
     width: 340px;
     position: absolute;
     top: 80px;
     list-style: none;
     text-align: start;
-    margin-top: 5px;
+    margin-top: 3px;
     border-radius: 3px;
 }
 
 .dropdown-menu li {
-    background: #006066;
+    background: var(--tert);
     cursor: pointer;
 }
 
 .dropdonw-menu li:hover {
     background: #439eaa;
     width: 280px;
-    height: 65px;
+    height: 60px;
     border-radius: 3px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .dropdown-menu.clicked {

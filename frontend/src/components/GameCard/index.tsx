@@ -1,4 +1,5 @@
 import GameInfo from 'components/GameInfo';
+import { Link } from 'react-router-dom';
 
 function GameCard() {
 
@@ -15,7 +16,9 @@ return (
     <img className="gaminicon-game-card-image" src={game.image} alt={game.title} />
     <div className="gaminicon-card-bottom-container">  <h3>{game.title}</h3>
  <GameInfo />
-     <div className="btn btn-primary gaminicon-btn">Avaliar</div>
+ <Link to="gmnc/form/1">
+     <div className="btn btn-primary gmnc-btn">Avaliar</div>
+     </Link>
  </div>
 </div>
 );

@@ -3,8 +3,6 @@ import { MenuItems } from 'components/MenuItem';
 import { Link } from 'react-router-dom'
 import './styles.css';
 
-
-
 function Dropdown() {
   const [click, setClick] = useState(false)
   const handleClick = () => setClick(!click)

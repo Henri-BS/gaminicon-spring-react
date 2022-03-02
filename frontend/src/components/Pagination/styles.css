@@ -1,7 +1,6 @@
 :root {
     --primary: #166c77;
-    --scdry: #c2c2c2;
-    --trtry: #005661;
+    --sec: #c2c2c2;
 }
 
 .gmnc-pagination-container {
@@ -9,7 +8,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
 }
 
 .gmnc-pagination-box {
@@ -41,8 +39,9 @@
 }
 
 .gmnc-pagination-button:disabled {
-    border: 1px solid var(--scdry);
+    border: 1px solid var(--sec);
     cursor: unset;
+    color: #fff;
 }
 
 .gmnc-pagination-button:disabled svg {
@@ -52,7 +51,7 @@
 .gmnc-pagination-container p {
     margin: 0;
     font-size: 12px;
-    color: var(--trtry);
+    color: #fff;
 }
 
 .gmnc-flip-horizontal {
