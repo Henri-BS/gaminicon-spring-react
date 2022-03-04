@@ -1,7 +1,7 @@
-import Explore from "components/pages/Explore";
-import Home from "components/pages/Home/Home";
-import Game from "components/pages/Games";
-import Suporte from "components/pages/Support";
+import Explore from "pages/Explore";
+import Home from "pages/Home/Home";
+import Game from "pages/Games";
+import Suporte from "pages/Support";
 import Form from "components/Form/index ";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Navbar from "components/NavBar";

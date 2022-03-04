@@ -8,12 +8,14 @@
     color: #fff;
     max-inline-size: 100%;
     margin: 0;
-    flex-direction: row;
 }
 
 .gaminicon-form-container {
     max-width: 380px;
     background-color: rgb(25, 24, 34);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
 }
 
 .gaminicon-form {
