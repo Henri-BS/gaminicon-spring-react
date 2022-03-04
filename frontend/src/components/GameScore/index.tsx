@@ -1,6 +1,6 @@
 import GameStars from "components/GameStars";
 import "./styles.css"
-function GameInfo() {
+function GameScore() {
 
     const score = 3.5;
     const count = 13;
@@ -14,4 +14,4 @@ function GameInfo() {
     );
 }
 
-export default GameInfo;
+export default GameScore;

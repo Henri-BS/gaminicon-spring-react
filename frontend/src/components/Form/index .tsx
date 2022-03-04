@@ -11,7 +11,6 @@ function Form() {
     };
 
     return (
-        <div className="container">
             <div className="gaminicon-form-container">
                 <img className="gaminicon-game-card-image" src={game.image} alt={game.title} />
                 <div className="gaminicon-card-bottom-container">
@@ -31,14 +30,14 @@ function Form() {
                                 <option>5</option>
                             </select>
                         </div>
-                        <div className="gaminicon-form-btn-container">
-                            <button type="submit" className="btn btn-primary gmnc-btn">Salvar</button>
-                        </div>
                     </form >
-                    <button className="btn btn-primary gmnc-btn mt-3">Cancelar</button>
+                    <div className="gaminicon-form-btn-container">
+                        <button type="submit" className="btn btn-primary gmnc-form-btn">Salvar</button>
+                    </div>
+
+                    <button className="btn btn-primary gmnc-form-btn mt-3">Cancelar</button>
                 </div>
             </div>
-        </div>
     );
 }
 

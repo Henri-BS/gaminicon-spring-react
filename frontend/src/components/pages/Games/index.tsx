@@ -1,9 +1,14 @@
+import Article from 'components/Article';
+import Form from 'components/Form/index ';
 import React from 'react';
 
-export default function Games() {
+export default function Game() {
   return (
     <>
-      <h1 className='home'>Jogos</h1>
+    <div className='container'>
+      <Form/>
+      <Article/>
+      </div>
     </>
   );
 }

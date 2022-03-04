@@ -1,4 +1,4 @@
-import GameInfo from 'components/GameInfo';
+import GameScore from 'components/GameScore';
 import { Link } from 'react-router-dom';
 
 function GameCard() {
@@ -15,9 +15,9 @@ return (
 <div>
     <img className="gaminicon-game-card-image" src={game.image} alt={game.title} />
     <div className="gaminicon-card-bottom-container">  <h3>{game.title}</h3>
- <GameInfo />
- <Link to="gmnc/form/1">
-     <div className="btn btn-primary gmnc-btn">Avaliar</div>
+ <GameScore />
+ <Link to="gmnc/game/1">
+     <div className="btn btn-primary gmnc-form-btn">Avaliar</div>
      </Link>
  </div>
 </div>

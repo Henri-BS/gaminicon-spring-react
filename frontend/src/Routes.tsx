@@ -1,6 +1,6 @@
 import Explore from "components/pages/Explore";
 import Home from "components/pages/Home/Home";
-import Games from "components/pages/Games";
+import Game from "components/pages/Games";
 import Suporte from "components/pages/Support";
 import Form from "components/Form/index ";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
@@ -21,12 +21,9 @@ const Routes = () => {
                     <Route path="/suporte">
                         <Suporte />
                     </Route>
-                    <Route path="/lista-de-jogos">
-                        <Games />
-                    </Route>
-                    <Route path="/gmnc/form">
+                    <Route path="/gmnc/game">
                         <Route path=":gameId" />
-                        {<Form />}
+                        {<Game />}
                     </Route>
                 </Switch>
             </BrowserRouter>
