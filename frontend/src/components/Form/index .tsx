@@ -1,3 +1,4 @@
+import GameStatus from 'components/GameStatus';
 import './styles.css'
 
 function Form() {
@@ -11,11 +12,14 @@ function Form() {
     };
 
     return (
+        <>
             <div className="gaminicon-form-container">
                 <img className="gaminicon-game-card-image" src={game.image} alt={game.title} />
                 <div className="gaminicon-card-bottom-container">
-                    <h3>"Fable III"</h3>
+                    <h3>"Fable III"</h3>               
+                    <GameStatus />
                     <form className="gaminicon-form">
+                        Avaliar:
                         <div className="form-group gaminicon-form-group">
                             <label htmlFor="email">Informe seu email</label>
                             <input type="email" className="form-control" id="email" />
@@ -34,10 +38,12 @@ function Form() {
                     <div className="gaminicon-form-btn-container">
                         <button type="submit" className="btn btn-primary gmnc-form-btn">Salvar</button>
                     </div>
-
                     <button className="btn btn-primary gmnc-form-btn mt-3">Cancelar</button>
-                </div>
+  
+                 </div>
+               
             </div>
+            </>
     );
 }
 

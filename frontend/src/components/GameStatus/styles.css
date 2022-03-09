@@ -1,0 +1,26 @@
+.gmnc-game-status-container {
+    max-width: 96%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.gmnc-status-content {
+    display: flex;
+    height: 30px;
+    width: 50%;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.gmnc-status-content:hover {
+    border: 3px solid teal;
+    border-radius: 5px;
+}
+
+.gmnc-icon-container {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}

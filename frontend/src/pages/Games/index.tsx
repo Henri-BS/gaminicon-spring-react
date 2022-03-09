@@ -7,10 +7,10 @@ export default function Game() {
     <>
     <div className="container">
       <div className="row">
-        <div className="col-sm-4 col-md-6 col-lg-4">
+        <div className="col-sm-6 col-md-4 col-lg-3">
           <Form />
         </div>
-        <div className="col-sm-8 col-md-6 offset-md-2 col-lg-8 offset-lg-0">
+        <div className="col-sm-6 col-md-8 col-lg-9">
           <Article />
         </div>
       </div>
