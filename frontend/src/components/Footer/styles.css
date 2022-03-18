@@ -1,0 +1,16 @@
+.footer-container {
+    height: 380px;
+    background-color: #010014;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container h3 {
+    margin-top: 10px;
+    color: rgb(114, 112, 112);
+    font-size: 20px;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
